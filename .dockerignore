@@ -10,7 +10,7 @@ venv/
 
 # Git repo data
 .git/
-.gitignore
+src/.gitignore
 
 # OS metadata
 .DS_Store
