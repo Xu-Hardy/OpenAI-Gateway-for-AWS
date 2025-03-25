@@ -1,0 +1,51 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# Git repo data
+.git/
+.gitignore
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editor config
+.vscode/
+.idea/
+
+# Python packaging
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.tox/
+coverage.xml
+htmlcov/
+.coverage
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker Compose override
+docker-compose.override.yml
+
+# Logs / runtime
+*.log
+*.pid
+
+# Instance folder (Flask)
+instance/
+
+# Optional: ignore tests from image
+tests/

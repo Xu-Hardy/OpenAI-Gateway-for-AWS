@@ -1,0 +1,55 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Flask instance folder
+instance/
+*.sqlite3
+
+# Flask-related files
+*.log
+*.pid
+*.db
+*.bak
+*.swp
+*.swo
+
+# IDE & editor configs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage & testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# mypy / pyright / linting
+.mypy_cache/
+.pytype/
+.pyre/
+
+# docker-compose override
+docker-compose.override.yml
